@@ -309,14 +309,14 @@ a img.aligncenter {
 }
 
 .navbar-dark .navbar-nav .nav-link{
-	color: #ffffff;
+	color: hsl(0, 0%, 100%);
 	letter-spacing: 1px;
 	font-size: 14px;
 	position: relative;
 	text-transform: capitalize;
 }
 .navbar-dark .navbar-nav .nav-link:hover{
-	color: #ffffff;
+	color: hsl(16, 100%, 50%);
 }
 .navbar-dark .navbar-nav .nav-link.active{
 	font-weight: 600;
@@ -325,7 +325,7 @@ a img.aligncenter {
     content: '';
     width: 0;
     height: 3px;
-    background: #ffffff;
+    background: hsl(0, 0%, 0%);
     position: absolute;
     bottom: 0;
     left: 0;
@@ -338,7 +338,7 @@ a img.aligncenter {
     z-index: -1;
 }
 .navbar-dark .navbar-nav .nav-link.active{
-	color: #28a9e2;
+	color: hsl(16, 100%, 50%);
 }
 .navbar-dark .navbar-nav .nav-link.active::after {
 	width: 100%;
@@ -348,11 +348,11 @@ a img.aligncenter {
 
 
 #mainNav.navbar-shrink .navbar-nav .nav-link{
-	color: #28a9e2;
+	color: hsl(16, 100%, 50%);
 }
 
 #mainNav.navbar-shrink .navbar-nav .nav-link::after{
-	background: #28a9e2;
+	background: hsl(16, 100%, 50%);
 }
 
 #mainNav.navbar-shrink .navbar-nav .nav-link.active{
@@ -385,19 +385,19 @@ a img.aligncenter {
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: #000;
+    background-color: hsl(0, 0%, 100%);
     z-index: 0;
     opacity: .6;
 }
 .heading{
-	color: #fff;
+	color: hsl(0, 0%, 100%);
 	display: table-cell;
 	vertical-align: middle;
 	position: relative;
 	z-index: 1;
 }
 .heading h1{
-	color: #ffffff;
+	color: hsl(0, 0%, 0%);
 	font-weight: 700;
 	font-size: 62px;
 	text-transform: capitalize;
@@ -409,7 +409,7 @@ a img.aligncenter {
 }
 
 .heading h3{
-	color: ffffff;
+	color: hsl(0, 0%, 0%);
 }
 
 .cd-words-wrapper {
@@ -442,7 +442,7 @@ xclip
 .cd-headline.clip span {
   display: inline-block;
   padding: .2em 0;
-  color: #ffffff;
+  color: hsl(0, 0%, 0%);
   font-size: 30px;
 }
 .cd-headline.clip span b{
@@ -460,7 +460,7 @@ xclip
   right: 0;
   width: 2px;
   height: 100%;
-  background-color: #aebcb9;
+  background-color: hsl(0, 0%, 0%);
 }
 .cd-headline.clip b {
   opacity: 0;
@@ -473,12 +473,12 @@ xclip
 #mainNav.navbar-shrink {
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: #ffffff;
-	-webkit-animation: fadeInDown 700ms;
-	animation: fadeInDown 700ms;
-	-webkit-backface-visibility: hidden;
+    background-color: hsl(0, 0%, 0%);
+	-webkit-animation: fadeInDown 200ms;
+	animation: fadeInDown 200ms;
+	/*-webkit-backface-visibility: hidden;*/
 	border-radius: 0px;
-	background: rgba(255, 255, 255) none repeat;
+	background: hsl(0, 0%, 100%) none repeat;
 	box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.1);
 }
 
@@ -750,25 +750,24 @@ xclip
 }
 
 .get_btn{
-	background: #ffffff;
-	color: #333333;
+	background: hsl(0, 0%, 0%);
+	color: hsl(16, 100%, 50%);
 	padding: 14px 20px;
 	border-radius: 100px;
 	overflow: hidden;
 }
 .get_btn:hover{
-	color: #ffffff;
+	color: hsl(0, 0%, 100%);
 }
-
 .learn_btn{
-	background: #333333;
-	color: #ffffff;
+	background: hsl(16, 100%, 50%);
+	color: hsl(0, 0%, 0%);
 	padding: 14px 20px;
 	border-radius: 100px;
 	overflow: hidden;
 }
 .learn_btn:hover{
-	color: #ffffff;
+	color: hsl(0, 0%, 100%);
 }
 
 .sim-btn{
@@ -796,6 +795,18 @@ xclip
 	-webkit-transition-duration: 0.5s;
 	transition-duration: 0.5s;
 }
+.hvr-bounce-to-top2{
+	display: inline-block;
+	vertical-align: middle;
+	-webkit-transform: perspective(1px) translateZ(0);
+	transform: perspective(1px) translateZ(0);
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	position: relative;
+	-webkit-transition-property: color;
+	transition-property: color;
+	-webkit-transition-duration: 0.5s;
+	transition-duration: 0.5s;
+}
 .hvr-bounce-to-top::before {
     content: "";
     position: absolute;
@@ -804,7 +815,7 @@ xclip
     left: 0;
     right: 0;
     bottom: 0;
-    background: #2098D1;
+    background: hsl(16, 100%, 50%);
     -webkit-transform: scaleY(0);
     transform: scaleY(0);
     -webkit-transform-origin: 50% 100%;
@@ -816,7 +827,27 @@ xclip
     -webkit-transition-timing-function: ease-out;
     transition-timing-function: ease-out;
 }
-.hvr-bounce-to-top:hover::before, .hvr-bounce-to-top:focus::before, .hvr-bounce-to-top:active::before {
+.hvr-bounce-to-top2::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: hsl(0, 0%, 0%);
+    -webkit-transform: scaleY(0);
+    transform: scaleY(0);
+    -webkit-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+.hvr-bounce-to-top:hover::before, .hvr-bounce-to-top2:hover::before, .hvr-bounce-to-top:focus::before, .hvr-bounce-to-top2:focus::before, .hvr-bounce-to-top:active::before, .hvr-bounce-to-top2:active::before {
     -webkit-transform: scaleY(1);
     transform: scaleY(1);
     -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
@@ -2274,8 +2305,8 @@ select.mobile-device {
     font-weight: 400;
     font-size: 20px;
     text-transform: capitalize;
-    line-height: !important;
-}
+    line-height: 3!important;
+}  
 
 .footer {
     padding: 90px 0 80px !important;
@@ -2351,8 +2382,8 @@ select.mobile-device {
 }
 
 .copyrights {
-    border-top: 1px dashed rgba(255, 255, 255, 0.1);
-    background-color: #1f1f1f;
+    border-top: 1px dashed hsl(16, 100%, 50%);
+    background-color: hsl(0, 0%, 100%);
     box-sizing: border-box;
     width: 100%;
     text-align: center;
@@ -2370,6 +2401,7 @@ select.mobile-device {
 .footer-distributed .footer-links {
     margin: 0 0 10px;
     text-transform: uppercase;
+    color: hsl(0, 0%, 0%);
     padding: 0;
 }
 
@@ -2383,7 +2415,7 @@ select.mobile-device {
 .footer-distributed .footer-company-name {
     font-weight: 300;
     margin: 0 10px;
-    color: #666;
+    color: hsl(16, 100%, 50%);
     padding: 0;
 }
 
@@ -2455,11 +2487,11 @@ select.mobile-device {
 }
 
 .footer-distributed .footer-company-name a{
-	color: #ffffff;
+	color: hsl(0, 0%, 0%);
 }
 
 .footer-distributed .footer-company-name a:hover{
-	color: #cccccc;
+	color: hsl(16, 100%, 50%);
 }
 
 /*------------------------------------------------------------------
@@ -2525,7 +2557,7 @@ select.mobile-device {
     color: #999 !important;
     margin: 0 !important;
     padding: 0 !important;
-    line-height: 1 !important:
+    line-height: 1 !important;
 }
 
 .stat-wrap p {
@@ -2534,7 +2566,7 @@ select.mobile-device {
     margin: 0;
     font-weight: 300;
     padding: 4px 0 0;
-    line-height: 1 !important:
+    line-height: 1 !important;
 }
 
 #preloader {
