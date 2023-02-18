@@ -663,7 +663,7 @@ xclip
 	-webkit-box-shadow: 0px 0px 30px -4px rgba(0, 0, 0, 0.3);
 	box-shadow: 0px 0px 30px -4px rgba(0, 0, 0, 0.3);
     border-radius: 100px 100px 0px 100px;
-    top: 2rem;
+    top: 3rem;
     left: 2rem;
 }
 .right-box-pro img{
@@ -1723,24 +1723,25 @@ hr.invis1 {
 	border-radius: 0px;
 	margin: 10px 0px;
 	display: block;
+    gap: 2rem;
 	border-radius: 100px 100px 0px 100px;
 }
 
 .filter-button-group button.active{
-	background: #28a9e2;
-	color: #fff;
+	background: hsl(16, 100%, 50%);
+	color: hsl(0, 0%, 100%);
 	box-shadow: 2px 20px 45px 5px rgba(0,0,0,.2);	
 	border-radius: 100px 100px 0px 100px;
 }
 
 .filter-button-group button{
-	color: #333;
+	color: hsl(0, 0%, 0%);
 	letter-spacing: 1px;
 	text-transform: uppercase;
 	font-weight: 600;
 	font-size: 14px;
 	cursor: pointer;
-	background: #fff;
+	background: hsl(240, 100%, 50%);
 	padding: 12px 40px;
 	border: none;
 	border-radius: 0px;
@@ -2468,7 +2469,7 @@ select.mobile-device {
 
 .footer-links a:hover,
 .footer a:hover {
-    color: #333333 !important;
+    color: hsl(16, 100%, 50%) !important;
 }
 
 .footer-links li {
