@@ -518,7 +518,11 @@ xclip
 }
 
 .section.wb {
-    background-color: hsl(240, 76%, 75%);
+    background-color: hsl(0, 0%, 100%);
+}
+
+.section.wb2 {
+    background-color: hsl(0, 0%, 0%);
 }
 
 .section.lb {
@@ -573,6 +577,18 @@ xclip
     margin-bottom: 60px;
 }
 
+.section-title2 {
+    display: block;
+    position: relative;
+    margin-bottom: 60px;
+}
+
+.section-title1 {
+    display: block;
+    position: relative;
+    margin-bottom: 60px;
+}
+
 .section-title p {
     color: hsl(0, 0%, 0%);
     font-weight: 400;
@@ -581,7 +597,43 @@ xclip
     margin: 0;
 }
 
+.section-title2 p {
+    color: hsl(0, 0%, 100%);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    margin: 0;
+}
+
+.section-title1 p {
+    color: hsl(0, 0%, 0%);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    margin: 0;
+}
+
 .section-title h3 {
+    font-size: 38px;
+    font-weight: 500;
+    color: hsl(16, 100%, 50%);
+    line-height: 62px;
+    margin: 0 0 25px;
+    padding: 0;
+    text-transform: none;
+}
+
+.section-title2 h3 {
+    font-size: 38px;
+    font-weight: 500;
+    color: hsl(16, 100%, 50%);
+    line-height: 62px;
+    margin: 0 0 25px;
+    padding: 0;
+    text-transform: none;
+}
+
+.section-title1 h3 {
     font-size: 38px;
     font-weight: 500;
     color: hsl(16, 100%, 50%);
@@ -704,7 +756,7 @@ xclip
 }
 .ser-icon i{
 	font-size: 50px;
-	color: #333333;
+	color: hsl(0, 0%, 0%);
 }
 .services-inner-box h2{
 	font-size: 22px;
@@ -721,7 +773,7 @@ xclip
 }
 
 .services-inner-box::after{
-	background: hsl(240, 76%, 75%);
+	background: hsl(0, 0%, 0%);
 	width: 0px;
 	height: 0px;
 	content: "";
@@ -743,7 +795,7 @@ xclip
 }
 
 .services-inner-box:hover h2{
-	color: hsl(0, 0%, 0%);
+	color: hsl(16, 100%, 50%);
 	transition: all 0.3s ease-in-out 0s;
 }
 .services-inner-box:hover p{
@@ -786,7 +838,7 @@ xclip
 }
 
 .sim-btn:hover{
-	color: hsl(240, 76%, 75%);
+	color: hsl(0, 0%, 100%);
 }
 
 .hvr-bounce-to-top{
@@ -913,7 +965,7 @@ xclip
     left: 0;
     right: 0;
     bottom: 0;
-    background: hsl(0, 0%, 0%);
+    background: hsl(16, 100%, 50%);
     -webkit-transform: scaleY(0);
     transform: scaleY(0);
     -webkit-transform-origin: 50% 100%;
@@ -933,7 +985,7 @@ xclip
     left: 0;
     right: 0;
     bottom: 0;
-    background: hsl(240, 76%, 75%);
+    background: hsl(0, 0%, 0%);
     -webkit-transform: scaleY(0);
     transform: scaleY(0);
     -webkit-transform-origin: 50% 100%;
@@ -953,7 +1005,7 @@ xclip
     left: 0;
     right: 0;
     bottom: 0;
-    background: hsl(0, 0%, 100%);
+    background: hsl(16, 100%, 50%);
     -webkit-transform: scaleY(0);
     transform: scaleY(0);
     -webkit-transform-origin: 50% 100%;
@@ -1502,7 +1554,7 @@ xclip
 .message-box h2 {
     font-size: 38px;
     font-weight: 600;
-    color: hsl(0, 0%, 100%);
+    color: hsl(16, 100%, 50%);
     padding: 0 0 10px;
     margin: 0;
     line-height: 62px;
@@ -1730,18 +1782,18 @@ hr.invis1 {
 .filter-button-group button.active{
 	background: hsl(16, 100%, 50%);
 	color: hsl(0, 0%, 100%);
-	box-shadow: 2px 20px 45px 5px rgba(0,0,0,.2);	
+	box-shadow: 2px 20px 45px 5px hsla(0,0,0,.2);
 	border-radius: 100px 100px 0px 100px;
 }
 
 .filter-button-group button{
-	color: hsl(0, 0%, 0%);
+	color: hsl(0, 0%, 100%);
 	letter-spacing: 1px;
 	text-transform: uppercase;
 	font-weight: 600;
 	font-size: 14px;
 	cursor: pointer;
-	background: hsl(240, 100%, 50%);
+	background: hsl(0, 0%, 0%);
 	padding: 12px 40px;
 	border: none;
 	border-radius: 0px;
@@ -1768,7 +1820,7 @@ hr.invis1 {
     left: 10px;
     right: 10px;
     bottom: 10px;
-    background: rgba(40, 169, 226, 0.80);
+    background: hsla(16, 100%, 50%, 0.50);
     color: #35424C;
     opacity: 0;
     -webkit-transition: all .5s;
@@ -1916,7 +1968,7 @@ hr.invis1 {
     border: 1px solid hsl(16, 100%, 50%);
     background: hsl(0, 0%, 0%);
     font-size: 17px;
-    color: hsl(240, 76%, 75%);
+    color: hsl(0, 0%, 100%);
     text-align: center;
     transition: all 0.5s ease 0s;
 }
@@ -1954,7 +2006,15 @@ hr.invis1 {
 .pricingTable .title{
     font-size: 35px;
     font-weight: 600;
-    color: hsl(240, 76%, 75%);
+    color: hsl(0, 0%, 0%);
+    text-transform: uppercase;
+    margin: 0 0 10px 0;
+}
+
+.pricingTable .blue .pricing-content {
+    font-size: 35px;
+    font-weight: 600;
+    color: hsl(0, 0%, 0%);
     text-transform: uppercase;
     margin: 0 0 10px 0;
 }
@@ -1965,14 +2025,14 @@ hr.invis1 {
 }
 .pricingTable .pricing-content ul li{
     font-size: 18px;
-    color: hsl(0, 0%, 0%);
+    color: hsl(0, 0%, 100%);
     line-height: 40px;
     text-transform: capitalize;
 }
 .pricingTable .pricingTable-signup{
     display: inline-block;
     padding: 8px 50px;
-    background: hsl(240, 76%, 75%);
+    background: hsl(0, 0%, 0%);
     border-radius: 100px;
     font-size: 20px;
     font-weight: 600;
@@ -1981,27 +2041,27 @@ hr.invis1 {
     position: relative;
     transition: all 0.3s ease 0s;
 }
-.pricingTable:hover .pricingTable-signup{ box-shadow: 0 0 10px hsl(240, 76%, 75%); }
+.pricingTable:hover .pricingTable-signup{ box-shadow: 0 0 10px hsl(0, 0%, 100%); }
 .pricingTable .pricingTable-signup:hover{
     color: hsl(0, 0%, 100%);
-    background: hsl(0, 0%, 100%);
-    box-shadow: 0 0 10px hsl(240, 76%, 75%), 0 0 10px #1c142b inset;
+    background: hsl(16, 100%, 50%);
+    box-shadow: 0 0 10px hsl(0, 0%, 0%), 0 0 10px #1c142b inset;
 }
-.pricingTable.blue .title{ color: hsl(0, 0%, 100%); }
+.pricingTable.blue .title{ color: hsl(0, 0%, 0%); }
 .pricingTable.blue .pricingTable-signup{ background: hsl(0, 0%, 100%); }
-.pricingTable.blue:hover .pricingTable-signup{ box-shadow: 0 0 10px hsl(240, 76%, 75%); }
+.pricingTable.blue:hover .pricingTable-signup{ box-shadow: 0 0 10px hsl(0, 0%, 0%); }
 .pricingTable.blue .pricingTable-signup:hover{
     color: hsl(16, 100%, 50%);
     background: hsl(0, 0%, 0%);
-    box-shadow:0 0 10px hsl(240, 76%, 75%), 0 0 10px #1c142b inset;
+    box-shadow:0 0 10px hsl(0, 0%, 100%), 0 0 10px #1c142b inset;
 }
 .pricingTable.red .title{ color: hsl(0, 0%, 0%); }
 .pricingTable.red .pricingTable-signup{ background: hsl(0, 0%, 0%); }
-.pricingTable.red:hover .pricingTable-signup{ box-shadow: 0 0 10px hsl(240, 76%, 75%); }
+.pricingTable.red:hover .pricingTable-signup{ box-shadow: 0 0 10px hsl(0, 0%, 100%); }
 .pricingTable.red .pricingTable-signup:hover{
-    color: hsl(240, 76%, 75%);
-    background: #fff;
-    box-shadow:0 0 10px hsl(240, 76%, 75%), 0 0 10px #1c142b inset;
+    color: hsl(0, 0%, 100%);
+    background: hsl(0, 0%, 0%);
+    box-shadow:0 0 10px hsl(0, 0%, 0%), 0 0 10px #1c142b inset;
 }
 @media only screen and (max-width: 990px){
     .pricingTable{ margin-bottom: 30px; }
