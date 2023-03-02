@@ -181,6 +181,8 @@
 	}
 	.filter-button-group{
 		text-align: center !important;
+		display: flex;
+		flex-direction: column;
 	}
 	.post-box{
 		margin-bottom: 30px;
