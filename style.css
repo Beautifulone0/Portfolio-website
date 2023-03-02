@@ -965,7 +965,7 @@ xclip
     left: 0;
     right: 0;
     bottom: 0;
-    background: hsl(16, 100%, 50%);
+    background: hsl(0, 0%, 100%);
     -webkit-transform: scaleY(0);
     transform: scaleY(0);
     -webkit-transform-origin: 50% 100%;
@@ -1005,7 +1005,7 @@ xclip
     left: 0;
     right: 0;
     bottom: 0;
-    background: hsl(16, 100%, 50%);
+    background: hsl(0, 0%, 100%);
     -webkit-transform: scaleY(0);
     transform: scaleY(0);
     -webkit-transform-origin: 50% 100%;
@@ -2043,7 +2043,7 @@ hr.invis1 {
 }
 .pricingTable:hover .pricingTable-signup{ box-shadow: 0 0 10px hsl(0, 0%, 100%); }
 .pricingTable .pricingTable-signup:hover{
-    color: hsl(0, 0%, 100%);
+    color: hsl(0, 0%, 0%);
     background: hsl(16, 100%, 50%);
     box-shadow: 0 0 10px hsl(0, 0%, 0%), 0 0 10px #1c142b inset;
 }
@@ -2051,7 +2051,7 @@ hr.invis1 {
 .pricingTable.blue .pricingTable-signup{ background: hsl(0, 0%, 100%); }
 .pricingTable.blue:hover .pricingTable-signup{ box-shadow: 0 0 10px hsl(0, 0%, 0%); }
 .pricingTable.blue .pricingTable-signup:hover{
-    color: hsl(16, 100%, 50%);
+    color: hsl(0, 0%, 100%);
     background: hsl(0, 0%, 0%);
     box-shadow:0 0 10px hsl(0, 0%, 100%), 0 0 10px #1c142b inset;
 }
@@ -2059,7 +2059,7 @@ hr.invis1 {
 .pricingTable.red .pricingTable-signup{ background: hsl(0, 0%, 0%); }
 .pricingTable.red:hover .pricingTable-signup{ box-shadow: 0 0 10px hsl(0, 0%, 100%); }
 .pricingTable.red .pricingTable-signup:hover{
-    color: hsl(0, 0%, 100%);
+    color: hsl(0, 0%, 0%);
     background: hsl(0, 0%, 0%);
     box-shadow:0 0 10px hsl(0, 0%, 0%), 0 0 10px #1c142b inset;
 }
